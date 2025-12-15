@@ -16,7 +16,7 @@ This demo intentionally keeps scope tight to show a clean full-stack vertical sl
 ## Tech Stack
 - Next.js 16 (App Router)
 - TypeScript
-- Prisma + SQLite
+- Prisma + PostgreSQL (Neon)
 - React 19
 
 ## Run locally

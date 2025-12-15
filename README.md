@@ -1,11 +1,10 @@
 # Sports Take Ledger (Demo)
 
+> **Why this exists:** This repo is intentionally small and readable. It demonstrates architecture and decision-making rather than feature completeness.
+
 A **sanitized demo** of a larger project: log sports predictions ("takes"), store them in a real DB, and render them in a feed.
 
-This demo intentionally keeps scope tight to show a clean full-stack vertical slice:
-- Next.js App Router UI
-- Prisma + SQLite data model
-- API routes for create/list/update
+**[Live Demo →](https://sports-takes-demo.vercel.app)**
 
 ## Features
 - ✅ Post new takes with confidence level (HUNCH / NORMAL / BOLD)
@@ -29,7 +28,7 @@ npm install
 cp .env.example .env
 
 # 3. Run database migrations
-npx prisma migrate dev --name init
+npx prisma db push
 
 # 4. (Optional) Seed with sample data
 npm run seed

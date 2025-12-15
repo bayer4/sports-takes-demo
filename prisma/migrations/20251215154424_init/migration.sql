@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "Take" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "author" TEXT NOT NULL,
+    "text" TEXT NOT NULL,
+    "confidence" TEXT NOT NULL,
+    "result" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
